@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new class Circle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul8/NameShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul8/Quad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul8/Rhombus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul8/Trapezoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul8/Triangle.java" afterDir="false" />
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul8/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul8/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul8/GetNameShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul8/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul8/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674935141032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done">
+      <created>1675010993925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675010993925</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +144,7 @@
     <MESSAGE value="start module 8" />
     <MESSAGE value="master module 8" />
     <MESSAGE value="new class Circle" />
-    <option name="LAST_COMMIT_MESSAGE" value="new class Circle" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
