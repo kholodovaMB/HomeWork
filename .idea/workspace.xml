@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new class Circle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new Modul 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674935141032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new Modul 9">
+      <created>1675605894319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675605894319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +160,7 @@
     <MESSAGE value="start module 8" />
     <MESSAGE value="master module 8" />
     <MESSAGE value="new class Circle" />
-    <option name="LAST_COMMIT_MESSAGE" value="new class Circle" />
+    <MESSAGE value="new Modul 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Modul 9" />
   </component>
 </project>
