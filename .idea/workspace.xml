@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new Class MaArrayList">
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="add methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675608087950</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add methods">
+      <created>1675713119141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675713119141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +177,7 @@
     <MESSAGE value="new class Circle" />
     <MESSAGE value="new Modul 9" />
     <MESSAGE value="new Class MaArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Class MaArrayList" />
+    <MESSAGE value="add methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add methods" />
   </component>
 </project>

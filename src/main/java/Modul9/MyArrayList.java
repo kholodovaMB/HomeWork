@@ -3,12 +3,11 @@ package Modul9;
 import java.util.*;
 import jdk.internal.util.ArraysSupport;
 
-public class MyArrayList <E>  extends AbstractList<E> implements List<E>{
+public class MyArrayList <E> {
     private final static int CAPACITY = 10;
     private int size;
     private final Object[] DEFAULT_DATA = {};
     transient Object[] elementData;
-    private int modCount = 0;
     public MyArrayList() {
         this.elementData = DEFAULT_DATA;
     }
@@ -24,66 +23,36 @@ public class MyArrayList <E>  extends AbstractList<E> implements List<E>{
         }
     }
 
-    public MyArrayList(Collection <? extends E> data) {
-        this.size = data.size();
-        Object[] a = data.toArray();
-        if (size != 0) {
-            if (data.getClass() == MyArrayList.class) {
-                elementData = a;
-            } else {
-                elementData = Arrays.copyOf(a, size, Object[].class);
-            }
-        } else {
-            elementData = DEFAULT_DATA;
-        }
-    }
-
-    public Object[] toArray() {
-        return Arrays.copyOf(elementData, size);
-    }
-
-    public <T> T[] toArray(T[] a) {
-        if (a.length < size)
-            // Make a new array of a's runtime type, but my contents:
-            return (T[]) Arrays.copyOf(elementData, size, a.getClass());
-        System.arraycopy(elementData, 0, a, 0, size);
-        if (a.length > size)
-            a[size] = null;
-        return a;
-    }
-
+//    public MyArrayList(Collection <? extends E> data) {
+//        this.size = data.size();
+//        Object[] a = data.toArray();
+//        if (size != 0) {
+//                elementData = Arrays.copyOf(a, size, Object[].class);
+//            }
+//         else {
+//            elementData = DEFAULT_DATA;
+//        }
+//    }
 
     public int size() {
         return size;
     }
 
     public boolean add(E e) {
-        modCount++;
-//        System.out.println("e = " + e);
-//        System.out.println("modCount = " + modCount);
-        add(e, elementData, size);
+        if (size == elementData.length)
+            elementData = grow(size + 1);
+        elementData[size] = e;
+        size++;
         return true;
     }
 
-    @Override
     public E get(int index) {
-        System.out.println(size);
         if (index < size) {
             return (E) elementData[index];}
         else {
             System.out.println("Don't exist element");
         }
-        return null;}
-
-    private void add(E e, Object[] elementData, int s) {
-        if (s == elementData.length)
-            elementData = grow();
-        elementData[s] = e;
-        size = s + 1;
-    }
-
-    private Object[] grow() {
-        return grow(size + 1);
+        return null;
     }
 
     private Object[] grow(int minCapacity) {
@@ -96,5 +65,24 @@ public class MyArrayList <E>  extends AbstractList<E> implements List<E>{
         } else {
             return elementData = new Object[Math.max(CAPACITY, minCapacity)];
         }
+    }
+
+    public E remove(int index) {
+        Objects.checkIndex(index, size);
+        final Object[] es = elementData;
+
+        @SuppressWarnings("unchecked") E oldValue = (E) es[index];
+        final int newSize;
+        if ((newSize = size - 1) > index){
+            System.arraycopy(es, index + 1, es, index, newSize - index);
+        es[size = newSize] = null;}
+
+        return oldValue;
+    }
+
+    public void clear() {
+        final Object[] es = elementData;
+        for (int to = size, i = size = 0; i < to; i++)
+            es[i] = null;
     }
 }
