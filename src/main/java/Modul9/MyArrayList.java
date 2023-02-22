@@ -23,17 +23,6 @@ public class MyArrayList <E> {
         }
     }
 
-//    public MyArrayList(Collection <? extends E> data) {
-//        this.size = data.size();
-//        Object[] a = data.toArray();
-//        if (size != 0) {
-//                elementData = Arrays.copyOf(a, size, Object[].class);
-//            }
-//         else {
-//            elementData = DEFAULT_DATA;
-//        }
-//    }
-
     public int size() {
         return size;
     }
@@ -47,7 +36,7 @@ public class MyArrayList <E> {
     }
 
     public E get(int index) {
-        if (index < size) {
+        if ((index > 0) && (index < size)) {
             return (E) elementData[index];}
         else {
             System.out.println("Don't exist element");
