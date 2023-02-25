@@ -50,6 +50,7 @@ public class MyQueue <E>{
     }
     public E poll() {
         if (size == 0) {
+            System.out.println("Queue is empty");
             return null;
         }
         E item = items[head];

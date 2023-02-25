@@ -65,19 +65,42 @@ public class Main {
         testQueue.clear();
         System.out.println("size Queue = " + testQueue.size());
         System.out.println("---------------------------------");
+
         // Test MyStack
         MyStack<String> testStack = new MyStack<>();
         testStack.push("First");
         testStack.push("Second");
         System.out.println("testStack.peek() = " + testStack.peek());
         testStack.push("Theard");
+     System.out.println("testStack.size() = " + testStack.size());
+     System.out.println("---------------------------------");
         System.out.println("testStack.peek() = " + testStack.peek());
         System.out.println("testStack.pop() = " + testStack.pop());
         System.out.println("testStack.peek() = " + testStack.peek());
-        testStack.remove(0);
+     System.out.println("testStack.size() = " + testStack.size());
+     testStack.remove(2);
         System.out.println("testStack.peek() = " + testStack.peek());
 
+        System.out.println("---------------------------------");
+        MyHashMap<Integer, String> testHashMap = new MyHashMap<>();
+        testHashMap.put(1, "Ukraine");
+        testHashMap.put(2, "USA");
+        testHashMap.put(3, "UK");
+        testHashMap.put(4, "France");
+        testHashMap.put(5, "China");
 
+        for (int i = 1; i <= testHashMap.size(); i++) {
+            System.out.println("testHashMap: " + i + " = " + testHashMap.get(i));
+        }
+        System.out.println("---------------------------------");
+        testHashMap.remove(5);
+        System.out.println("testHashMap.size() = " + testHashMap.size());
+        System.out.println("---------------------------------");
+        for (int i = 1; i <= testHashMap.size(); i++) {
+            System.out.println("testHashMap: " + i + " = " + testHashMap.get(i));
+        }
+        testHashMap.clear();
+        System.out.println("testHashMap.size() = " + testHashMap.size());
 
     }
 }

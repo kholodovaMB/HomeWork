@@ -68,23 +68,10 @@ public class MyLinkedList <E>{
 
         if( element == null)
             throw new IndexOutOfBoundsException();
-
         size--;
         return element;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder str = new StringBuilder();
-        Node<E> node = head;
-        if (node == null) {
-            str.append("Head null");
-        } else while (node != null) {
-            str.append(node.data).append("\t");
-            node = node.next;
-        }
-        return str.toString();
-    }
 
     public void clear() {
         Node<E> node = head;

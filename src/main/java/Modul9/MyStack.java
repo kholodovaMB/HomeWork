@@ -7,7 +7,7 @@ public class MyStack <E>{
     private E[] data;
     private int size;
     {
-        size = -1;
+        size = 0;
     }
     public MyStack() {
         data = (E[]) new Object[CAPACITY];
@@ -18,18 +18,18 @@ public class MyStack <E>{
     }
 
     public void push(E item) {
-        if (size == data.length - 1) {
-            grow();
+        if (size == data.length) {
+            grow(data.length * 2);
         }
         size++;
         data[size] = item;
     }
 
     public E remove(int index) {
-        Objects.checkIndex(index, size);
-        if (index == -1) {
-            throw new IllegalArgumentException("Illegal Capacity: "+
-                    index);
+//        Objects.checkIndex(index, size);
+        if (index < 0 || index > size) {
+            System.out.println("Don't exist element");
+            return null;
         }
         E value = data[index];
         for (int i = index; i < size; i++) {
@@ -53,26 +53,13 @@ public class MyStack <E>{
         E value = data[size];
         data[size] = null;
         size--;
-
-        if (size < data.length / 2) {
-            decreaseCapacity();
-        }
-
         return value;
     }
 
-    private void grow() {
-        E[] newData = (E[]) new Object[data.length * 2];
+    private void grow(int newCapacity) {
+        E[] newData = (E[]) new Object[newCapacity];
         System.arraycopy(data, 0, newData, 0, data.length);
         data = newData;
-    }
-
-    private void decreaseCapacity() {
-        if (data.length > CAPACITY) {
-            E[] newData = (E[]) new Object[data.length / 2];
-            System.arraycopy(data, 0, newData, 0, newData.length);
-            data = newData;
-        }
     }
 
     public int size(){
