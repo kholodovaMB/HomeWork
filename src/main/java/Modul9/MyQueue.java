@@ -1,6 +1,6 @@
 package Modul9;
 
-import jdk.internal.util.ArraysSupport;
+//import jdk.internal.util.ArraysSupport;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;

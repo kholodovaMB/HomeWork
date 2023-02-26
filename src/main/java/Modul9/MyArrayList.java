@@ -1,7 +1,7 @@
 package Modul9;
 
 import java.util.*;
-import jdk.internal.util.ArraysSupport;
+//import jdk.internal.util.ArraysSupport;
 
 public class MyArrayList <E> {
     private final static int CAPACITY = 10;
@@ -47,9 +47,7 @@ public class MyArrayList <E> {
     private Object[] grow(int minCapacity) {
         int oldCapacity = elementData.length;
         if (oldCapacity > 0 || elementData != DEFAULT_DATA) {
-            int newCapacity = ArraysSupport.newLength(oldCapacity,
-                    minCapacity - oldCapacity, /* minimum growth */
-                    oldCapacity >> 1           /* preferred growth */);
+            int newCapacity = oldCapacity * 2;
             return elementData = Arrays.copyOf(elementData, newCapacity);
         } else {
             return elementData = new Object[Math.max(CAPACITY, minCapacity)];

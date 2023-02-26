@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="add MyStack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyHashMap.java" afterDir="false" />
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="add MyHashMap">
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,32 +44,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;987-123-4567&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Modul8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Modul9.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Modul8.Main" />
       <module name="HomeWork" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modul9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Modul9.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Modul9.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
@@ -86,8 +93,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Modul9.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Shape" />
       </list>
     </recent_temporary>
@@ -171,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677095695594</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add MyHashMap">
+      <created>1677319320285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677319320285</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +208,7 @@
     <MESSAGE value="new Class MaArrayList" />
     <MESSAGE value="add methods" />
     <MESSAGE value="add MyStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MyStack" />
+    <MESSAGE value="add MyHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MyHashMap" />
   </component>
 </project>
