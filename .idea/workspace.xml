@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="add MyHashMap">
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul10/Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new modul 10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul11/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul11/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul11/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul11/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul11/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testUser.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul9/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul9/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul10/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul10/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677319320285</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new modul 10">
+      <created>1677443696465</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677443696465</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +213,7 @@
     <MESSAGE value="add methods" />
     <MESSAGE value="add MyStack" />
     <MESSAGE value="add MyHashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MyHashMap" />
+    <MESSAGE value="new modul 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="new modul 10" />
   </component>
 </project>
