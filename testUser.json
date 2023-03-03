@@ -1,4 +1,22 @@
 {
-  "name": "alice",
-  "age": 21
+  "name": "Mariyka",
+  "username": "Mariyka",
+  "email": "Mariyka_Hettinger@annie.ca",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 111",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(111)111-1111",
+  "website": "demarco.info",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems"
+  }
 }

@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new modul 11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul12/FizzBuzzService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul12/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul12/Task1WithExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul12/Task2.java" afterDir="false" />
+    <list default="true" id="00157084-3142-4a78-a019-8b1ab28e80df" name="Changes" comment="new modul 12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/HTTPjson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/SHTTPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/UserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul13/UserTodos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-1-post-10-comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-3-post-30-comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-4-post-40-comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userEdit.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testUser.json" beforeDir="false" afterPath="$PROJECT_DIR$/testUser.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677525980965</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new modul 12">
+      <created>1677677667589</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677677667589</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +235,7 @@
     <MESSAGE value="add MyHashMap" />
     <MESSAGE value="new modul 10" />
     <MESSAGE value="new modul 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="new modul 11" />
+    <MESSAGE value="new modul 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="new modul 12" />
   </component>
 </project>
